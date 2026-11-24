@@ -14,16 +14,16 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: Contribution count
+        run: .github/scripts/contributions.sh "${{ github.repository_owner }}" dist
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-      - name: Contribution count
-        run: .github/scripts/contributions.sh "${{ github.repository_owner }}" dist
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
