@@ -42,6 +42,11 @@ At EVON I am the only software and embedded developer (since November 2025).
 ## My GitHub activity
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sande5h/sande5h/output/contributions-dark.svg">
+  <img alt="Contribution count" src="https://raw.githubusercontent.com/sande5h/sande5h/output/contributions.svg">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sande5h/sande5h/output/github-snake-dark.svg">
   <img width="100%" alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/sande5h/sande5h/output/github-snake.svg">
 </picture>
