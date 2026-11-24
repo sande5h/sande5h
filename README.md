@@ -8,9 +8,10 @@ At EVON I am the only software and embedded developer (since November 2025).
 
 ## What I work on
 
-- **EV firmware:** STM32 + FreeRTOS vehicle control unit, ESP32 dashboards, charge controllers, BMS and motor controller links
+- **EV firmware:** STM32 + FreeRTOS vehicle control unit, ESP32 dashboards, BMS and motor controller links
+- **EV charging:** charger-side and vehicle-side controllers, contactor safety, charger screen on a Raspberry Pi
 - **Buses:** CAN, RS485 / Modbus, UART, BLE, LTE modems
-- **Reverse engineering:** flash dumps, firmware unpacking, MCU patching on a CarPlay motorbike dashboard (Allwinner Linux + Cortex-M0)
+- **Reverse engineering:** flash dumps, firmware unpacking, MCU patches tested in an ARM emulator before flashing (Allwinner Linux + Cortex-M0)
 - **Apps and backend:** Flutter app with an Apple Watch companion, PHP / MariaDB API, fleet telematics over LTE
 - **Rust:** desktop apps with the Noobsbot team
 
@@ -27,10 +28,12 @@ At EVON I am the only software and embedded developer (since November 2025).
 
 ## Highlights
 
+- Made DC charging safer: fixed a bug that left the charger on at 86 V with no vehicle connected, and stopped the contactor from opening under load.
+- Reverse-engineered a CarPlay motorbike dashboard and patched its firmware to drive the motor over CAN, testing every patch in an emulator first.
 - Got speed modes and forward / neutral / reverse working over CAN on a Fardriver controller, and wrote the setup guide.
-- Dumped, decoded and patched a CarPlay motorbike dashboard so it shows our BMS and motor data.
-- Proved an IoT SIM works in Nepal and built a fleet server with firmware updates over LTE.
-- Built the EVON phone app on my own: BLE pairing, battery diagnostics, firmware update over BLE.
+- Built a fleet server that updates bike firmware over an IoT SIM in Nepal, with a check on every piece of the download.
+- Built the EVON phone app on my own (109 commits): BLE pairing, battery diagnostics, firmware updates and an Apple Watch app.
+- Built a Nepali typing tool for noobsbot.com and raised its accuracy from 82.7% to 97.7%.
 - Runner-up, Yantra 9.0 robotics challenge (2024).
 
 ## Tools
