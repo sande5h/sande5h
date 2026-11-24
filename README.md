@@ -39,6 +39,13 @@ At EVON I am the only software and embedded developer (since November 2025).
 - **Frameworks:** ESP-IDF · STM32 HAL · FreeRTOS · LVGL · Flutter · Next.js
 - **Tools:** KiCad · Fusion 360 · Git · GitHub Actions · Docker · Linux
 
+## My GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sande5h/sande5h/output/github-snake-dark.svg">
+  <img width="100%" alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/sande5h/sande5h/output/github-snake.svg">
+</picture>
+
 ## Let's Collab!
 
 I like building real hardware and software solutions: EV systems, CAN, embedded
