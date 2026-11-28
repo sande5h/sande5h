@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="110" viewBox="0 0 480 110" role="img" aria-label="3,500 contributions in the last year, 4,025 in total since 2020">
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}</style>
+  <rect x="0.5" y="0.5" width="479" height="109" rx="8" fill="#ffffff" stroke="#d1d9e0"/>
+  <text x="28" y="56" font-size="34" font-weight="600" fill="#1a7f37">3,500</text>
+  <text x="28" y="84" font-size="14" fill="#59636e">contributions in the last year</text>
+  <line x1="240" y1="24" x2="240" y2="86" stroke="#d1d9e0"/>
+  <text x="264" y="56" font-size="34" font-weight="600" fill="#1f2328">4,025</text>
+  <text x="264" y="84" font-size="14" fill="#59636e">in total since 2020</text>
+</svg>
